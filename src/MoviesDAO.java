@@ -1,11 +1,13 @@
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class MoviesDAO {
 
     private static final String URL = "jdbc:mysql://localhost:3306/movieagregator?serverTimezone=UTC&useSSL=false&characterEncoding=utf8";
     private static final String USER = "root";
     private static final String PASS = "dydolino96";
-    private Connection connection=null;
+    private Connection connection = null;
 
     public MoviesDAO() {
 
@@ -22,7 +24,7 @@ public class MoviesDAO {
         }
     }
 
-    public void addMovie(Movie movie){
+    public void addMovie(Movie movie) {
         final String sql = "insert into movies(title, director, URL, year) values(?, ?, ?,?)";
         try {
             PreparedStatement prepStmt = connection.prepareStatement(sql);
@@ -38,7 +40,7 @@ public class MoviesDAO {
 
     }
 
-    public Movie getMovie(int id){
+    public Movie getMovie(int id) {
         final String sql = "select id, title, director, URL, year from movies where id = ?";
         try {
             PreparedStatement prepStmt = connection.prepareStatement(sql);
@@ -59,11 +61,32 @@ public class MoviesDAO {
         return null;
     }
 
-    public void getAllMovies(){
+    public List<Movie> getAllMovies() {
+        List<Movie> movieList = new ArrayList<>();
+        Movie movie = new Movie();
 
+        final String sql = "select * from books";
+        try {
+            Statement statement = connection.createStatement();
+            ResultSet resultSet = statement.executeQuery(sql);
+
+            while (resultSet.next()) {
+                movie.setId(resultSet.getInt("id"));
+                movie.setTitle(resultSet.getString("title"));
+                movie.setDirector(resultSet.getString("director"));
+                movie.setURL(resultSet.getString("URL"));
+                movie.setYear(resultSet.getString("year"));
+                movieList.add(movie);
+            }
+
+        } catch (SQLException var10) {
+            System.out.println("Nie można wczytać zawartości bazy");
+        }
+
+        return movieList;
     }
 
-    public void removeMovie(int id){
+    public void removeMovie(int id) {
 
         final String sql = "delete from movies where id = ?";
         try {
@@ -86,7 +109,7 @@ public class MoviesDAO {
     }
 
     public static void main(String[] args) {
-        MoviesDAO moviesDAO=new MoviesDAO();
+        MoviesDAO moviesDAO = new MoviesDAO();
         //moviesDAO.close();
     }
 
