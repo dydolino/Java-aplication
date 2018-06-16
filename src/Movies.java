@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 
-@WebServlet(name = "/addMovie")
+@WebServlet("/addMovie")
 public class Movies extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -18,12 +18,12 @@ public class Movies extends HttpServlet {
         String year = request.getParameter("year");
 
         if (title.isEmpty()&&director.isEmpty()&&URL.isEmpty()&&year.isEmpty()){
-            request.getRequestDispatcher("index.jsp").forward(request, response);
+            request.getRequestDispatcher("/index.jsp");
         }else {
             Movie movie=new Movie(title,director,URL,year);
             MoviesDAO moviesDAO=new MoviesDAO();
             moviesDAO.addMovie(movie);
-            request.getRequestDispatcher("index.jsp").forward(request, response);
+            request.getRequestDispatcher("/index.jsp");
         }
 
 
