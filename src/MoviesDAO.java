@@ -108,10 +108,5 @@ public class MoviesDAO {
 
     }
 
-    public static void main(String[] args) {
-        MoviesDAO moviesDAO = new MoviesDAO();
-        //moviesDAO.close();
-    }
-
 
 }

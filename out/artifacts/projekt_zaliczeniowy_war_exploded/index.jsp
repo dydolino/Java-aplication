@@ -13,6 +13,6 @@
   <body>
   <div style="text-align: center;"><h1>Wypozyczalnia filmow</h1></div>
   <div style="text-align: center;"><a href="/add.jsp"style="color: #cc1111">Dodaj film</a></div>
-  <div style="text-align: center;"><a href="/browse.jsp"style="color: #cc1111">Przegladaj filmy</a></div>
+  <div style="text-align: center;"><a href="/browse"style="color: #cc1111">Przegladaj filmy</a></div>
   </body>
 </html>
