@@ -16,7 +16,7 @@
 
 <%
     Object listaIndeksów = request.getAttribute("ids");
-    List<String> ids = (List<String>) listaIndeksów;
+    List<Integer> ids = (List<Integer>) listaIndeksów;
 
     Object listaTytulow = request.getAttribute("titles");
     List<String> titles = (List<String>) listaTytulow;
