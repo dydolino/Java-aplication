@@ -52,7 +52,7 @@
 
             <%
                 for (int i = 0; i < titles.size(); i++) {
-                    out.println("<tr>" + "<th scope=\"row\">" + (i + 1) + "</th>" + "<td>" + ids.get(i) + "</td>" + "<td>" + titles.get(i) + "</td>" + "<td>" + directors.get(i) + "</td>" + "<td>" + urls.get(i) + "</td>" + "<td>" + years.get(i) + "</td>" + "</tr>");
+                    out.println("<tr>" +  "<td>" + ids.get(i) + "</td>" + "<td>" + titles.get(i) + "</td>" + "<td>" + directors.get(i) + "</td>" + "<td>" + urls.get(i) + "</td>" + "<td>" + years.get(i) + "</td>" + "</tr>");
                 }
             %>
 
