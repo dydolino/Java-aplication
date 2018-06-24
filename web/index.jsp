@@ -14,10 +14,12 @@
 </head>
 <body>
 <div style="text-align: center;"><h1>Wypożyczalnia filmów</h1></div>
-<div style="text-align: center;"><a href="/add.jsp" style="color: #cc1111">Dodaj film do bazy</a></div>
+<div style="text-align: center;"><form method="post" action="add.jsp">
+    <input type="submit" value="Dodaj film do bazy">
+</form></div>
+
 <div style="text-align: center;"><form method="post" action="browse">
     <input type="submit" value="Przegladaj">
 </form></div>
-<div style="text-align: center;"><a href="/browse" style="color: #cc1111">Przeglądaj filmy</a></div>
 </body>
 </html>
