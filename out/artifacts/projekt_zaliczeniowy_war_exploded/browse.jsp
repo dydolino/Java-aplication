@@ -22,7 +22,7 @@
 //    browse.doPost();
 
     Object listaIndeksów = request.getAttribute("ids");
-    List<String> ids = (List<String>) listaIndeksów;
+    List<Integer> ids = (List<Integer>) listaIndeksów;
 
     Object listaTytulow = request.getAttribute("titles");
     List<String> titles = (List<String>) listaTytulow;
@@ -38,9 +38,9 @@
 %>
 
 
-
 <table class="table">
     <thead>
+<<<<<<< HEAD
     <div style="text-align: center;"> <form action="Rezerwacja?action=doPost" method="post">
     <tr>
         <th scope="col">ID</th>
@@ -50,6 +50,18 @@
         <th scope="col">Rok</th>
     </tr>
     </div></thead>
+=======
+    <div style="text-align: center;">
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Tytuł</th>
+            <th scope="col">Reżyser</th>
+            <th scope="col">URL</th>
+            <th scope="col">Rok</th>
+        </tr>
+    </div>
+    </thead>
+>>>>>>> olek
     <tbody>
     <div style="text-align: center;">
 
@@ -57,14 +69,15 @@
         <tr>
 
             <%
-                for(int i=0;i<titles.size();i++){
-                    out.println("<tr>" + "<th scope=\"row\">" + (i+1) + "</th>" + "<td>" + ids.get(i) + "</td>" + "<td>" + titles.get(i) + "</td>" + "<td>" + directors.get(i) + "</td>" + "<td>" + urls.get(i) + "</td>" + "<td>" + years.get(i) + "</td>" + "</tr>");
+                for (int i = 0; i < titles.size(); i++) {
+                    out.println("<tr>" + "<th scope=\"row\">" + (i + 1) + "</th>" + "<td>" + ids.get(i) + "</td>" + "<td>" + titles.get(i) + "</td>" + "<td>" + directors.get(i) + "</td>" + "<td>" + urls.get(i) + "</td>" + "<td>" + years.get(i) + "</td>" + "</tr>");
                 }
             %>
 
         </tr>
 
-    </div></tbody>
+    </div>
+    </tbody>
 </table>
 
 

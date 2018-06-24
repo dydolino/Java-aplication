@@ -7,8 +7,8 @@ import java.util.List;
 public class MoviesDAO {
 
     private static final String URL = "jdbc:mysql://localhost:3306/movieagregator?serverTimezone=UTC&useSSL=false&characterEncoding=utf8";
-    private static final String USER = "user";
-    private static final String PASS = "admin1";
+    private static final String USER = "root";
+    private static final String PASS = "dydolino96";
     private Connection connection = null;
 
     public MoviesDAO() {
@@ -58,7 +58,7 @@ public class MoviesDAO {
                 return movie;
             }
         } catch (SQLException e) {
-            System.out.println("Could not get employee");
+            System.out.println("Could not get movie");
         }
         return null;
     }
@@ -67,7 +67,7 @@ public class MoviesDAO {
         List<Movie> movieList = new ArrayList<>();
         Movie movie = new Movie();
 
-        final String sql = "select * from books";
+        final String sql = "select * from movies";
         try {
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery(sql);

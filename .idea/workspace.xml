@@ -7,6 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87cb540f-bf72-4e66-b47b-3b3e43333583" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/projekt_zaliczeniowy_war_exploded/WEB-INF/classes/Browse.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/projekt_zaliczeniowy_war_exploded/WEB-INF/classes/Movie.class" beforeDir="false" />
@@ -22,6 +23,8 @@
       <change beforePath="$PROJECT_DIR$/src/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/Movie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Movies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/Movies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MoviesDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/MoviesDAO.java" afterDir="false" />
+=======
+>>>>>>> olek
       <change beforePath="$PROJECT_DIR$/web/browse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/browse.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -54,7 +57,17 @@
             <state relative-caret-position="289">
               <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
               <folding>
+<<<<<<< HEAD
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+=======
+                <element signature="n#style#0;n#title#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+>>>>>>> olek
               </folding>
             </state>
           </provider>
@@ -65,6 +78,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="12" column="61" lean-forward="true" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+<<<<<<< HEAD
             </state>
           </provider>
         </entry>
@@ -81,6 +95,8 @@
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+=======
+>>>>>>> olek
             </state>
           </provider>
         </entry>
@@ -88,17 +104,37 @@
       <file leaf-file-name="Browse.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/Browse.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="323">
               <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+=======
+            <state relative-caret-position="301">
+              <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+>>>>>>> olek
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Movies.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/Movies.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+=======
+      <file leaf-file-name="browse.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/browse.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+              <folding>
+                <element signature="n#style#0;n#title#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#thead#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+>>>>>>> olek
             </state>
           </provider>
         </entry>
@@ -106,6 +142,7 @@
       <file leaf-file-name="empty.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/empty.jsp">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="272">
               <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="95" />
               <folding>
@@ -129,6 +166,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1365">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+=======
+            <state relative-caret-position="102">
+              <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+>>>>>>> olek
             </state>
           </provider>
         </entry>
@@ -136,8 +180,13 @@
       <file leaf-file-name="confirmAdded.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/confirmAdded.jsp">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="289">
               <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="77" />
+=======
+            <state relative-caret-position="170">
+              <caret line="10" column="62" lean-forward="true" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+>>>>>>> olek
               <folding>
                 <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -181,8 +230,13 @@
         <option value="$PROJECT_DIR$/src/Movies.java" />
         <option value="$PROJECT_DIR$/web/add.jsp" />
         <option value="$PROJECT_DIR$/src/MoviesDAO.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/Browse.java" />
         <option value="$PROJECT_DIR$/src/edu/Browse.java" />
+=======
+        <option value="$PROJECT_DIR$/src/moviesServlet/Browse.java" />
+        <option value="$PROJECT_DIR$/src/Browse.java" />
+>>>>>>> olek
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/browse.jsp" />
       </list>
@@ -262,12 +316,15 @@
             <path>
               <item name="projektZaliczeniowy" type="b2602c69:ProjectViewProjectNode" />
               <item name="projektZaliczeniowy" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projektZaliczeniowy" type="b2602c69:ProjectViewProjectNode" />
               <item name="projektZaliczeniowy" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> olek
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -462,13 +519,22 @@
       <workItem from="1529156003363" duration="241000" />
       <workItem from="1529156677796" duration="1560000" />
       <workItem from="1529232531058" duration="3037000" />
+<<<<<<< HEAD
       <workItem from="1529773463909" duration="12161000" />
       <workItem from="1529848113800" duration="3631000" />
+=======
+      <workItem from="1529773463909" duration="11639000" />
+      <workItem from="1529860964752" duration="1805000" />
+>>>>>>> olek
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="29411000" />
+=======
+    <option name="totallyTimeSpent" value="28550000" />
+>>>>>>> olek
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -499,13 +565,44 @@
       <window_info id="Web" order="4" sideWeight="0.24637681" side_tool="true" visible="true" weight="0.08958333" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.33945945" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.7561375" visible="true" weight="0.159375" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Application Servers" order="0" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="0" />
+      <window_info id="Web" order="4" sideWeight="0.24386252" side_tool="true" visible="true" weight="0.159375" />
+      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.3296875" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="bottom" id="TODO" order="14" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="1" weight="0.32972974" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="8" />
+=======
+      <window_info id="UI Designer" order="1" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.3995749" />
+      <window_info anchor="bottom" id="Messages" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info id="Designer" order="0" />
+>>>>>>> olek
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,10 +613,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/edu/Browse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -579,6 +677,47 @@
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/web/add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/browse.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Browse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Movies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MoviesDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+>>>>>>> olek
         </state>
       </provider>
     </entry>
@@ -600,6 +739,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+<<<<<<< HEAD
           <folding>
             <element signature="n#style#0;n#title#0;n#head#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#thead#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -607,6 +747,8 @@
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+=======
+>>>>>>> olek
         </state>
       </provider>
     </entry>
@@ -656,6 +798,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="93" selection-start-line="15" selection-start-column="93" selection-end-line="15" selection-end-column="93" />
+<<<<<<< HEAD
           <folding>
             <element signature="n#style#0;n#title#0;n#head#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#thead#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -663,6 +806,8 @@
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+=======
+>>>>>>> olek
         </state>
       </provider>
     </entry>
@@ -807,6 +952,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/web/confirmAdded.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -842,11 +988,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="61" lean-forward="true" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+=======
+    <entry file="jar://$USER_HOME$/Downloads/apache-tomcat-8.0.52/apache-tomcat-8.0.52/lib/servlet-api.jar!/javax/servlet/http/HttpServlet.class" />
+    <entry file="file://$PROJECT_DIR$/src/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="90" column="5" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Movies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MoviesDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="64" column="50" lean-forward="true" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#title#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/empty.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/confirmAdded.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="62" lean-forward="true" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+>>>>>>> olek
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/browse.jsp">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="357">
           <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="20" />
           <folding>
@@ -856,24 +1060,42 @@
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="204">
+          <caret line="12" column="61" lean-forward="true" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+>>>>>>> olek
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/empty.jsp">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="272">
           <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="95" />
           <folding>
             <element signature="n#style#0;n#div#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="301">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+>>>>>>> olek
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="289">
           <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
           <folding>
+=======
+        <state relative-caret-position="204">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#title#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#thead#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+>>>>>>> olek
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
