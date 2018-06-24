@@ -17,14 +17,14 @@ public class Movies extends HttpServlet {
         String URL = request.getParameter("url");
         String year = request.getParameter("year");
 
-        if (title.isEmpty() && director.isEmpty() && URL.isEmpty() && year.isEmpty()) {
-            request.getRequestDispatcher("/index.jsp").forward(request, response);
+        if (title.isEmpty() || director.isEmpty() || URL.isEmpty() || year.isEmpty()) {
+            request.getRequestDispatcher("/empty.jsp").forward(request, response);
         } else {
 
             MoviesDAO moviesDAO = new MoviesDAO();
             Movie movie = new Movie(title, director, URL, year);
             moviesDAO.addMovie(movie);
-            request.getRequestDispatcher("/index.jsp").forward(request, response);
+            request.getRequestDispatcher("/confirmAdded.jsp").forward(request, response);
         }
 
 

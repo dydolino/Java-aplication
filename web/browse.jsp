@@ -8,66 +8,61 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Browse</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+          integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <title style="text-align: center;">Potwierdzenie dodania filmu</title>
 </head>
 <body>
 
 <%
-    Object listaP = request.getAttribute("titles");
-    List<String> titles = (List<String>) listaP;
+    Object listaIndeksów = request.getAttribute("ids");
+    List<Integer> ids = (List<Integer>) listaIndeksów;
+
+    Object listaTytulow = request.getAttribute("titles");
+    List<String> titles = (List<String>) listaTytulow;
+
+    Object listaRezyserow = request.getAttribute("directors");
+    List<String> directors = (List<String>) listaRezyserow;
+
+    Object listaURL = request.getAttribute("urls");
+    List<String> urls = (List<String>) listaURL;
+
+    Object listaLat = request.getAttribute("years");
+    List<String> years = (List<String>) listaLat;
 %>
 
 
-
-<table style="margin: 0px auto;">
+<table class="table">
     <thead>
-    <tr>
-        <th scope="col">L.P.</th>
-        <th scope="col">Tytul</th>
-    </tr>
+    <div style="text-align: center;">
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Tytuł</th>
+            <th scope="col">Reżyser</th>
+            <th scope="col">URL</th>
+            <th scope="col">Rok</th>
+        </tr>
+    </div>
     </thead>
     <tbody>
-    <tr>
-        <th scope="row">1</th>
-        <td><%=titles.get(0)%>
-        </td>
-        </td>
-    </tr>
+    <div style="text-align: center;">
 
-    <tr>
 
-        <%
-            if (titles.size() > 1) {
-                out.println("<th scope=\"row\">" + 2 + "</th>");
-                out.println("<td>" + titles.get(1) + "</td>");
-            }
-            ;
-        %>
+        <tr>
 
-    </tr>
-    <tr>
-        <%
-            if (titles.size() > 2) {
-                out.println("<th scope=\"row\">" + 3 + "</th>");
-                out.println("<td>" + titles.get(2) + "</td>");
-            }
-            ;
-        %>
-    </tr>
-    <tr>
-        <%
-            if (titles.size() > 3) {
-                out.println("<th scope=\"row\">" + 4 + "</th>");
-                out.println("<td>" + titles.get(3) + "</td>");
+            <%
+                for (int i = 0; i < titles.size(); i++) {
+                    out.println("<tr>" + "<th scope=\"row\">" + (i + 1) + "</th>" + "<td>" + ids.get(i) + "</td>" + "<td>" + titles.get(i) + "</td>" + "<td>" + directors.get(i) + "</td>" + "<td>" + urls.get(i) + "</td>" + "<td>" + years.get(i) + "</td>" + "</tr>");
+                }
+            %>
 
-            }
-            ;
-        %>
-    </tr>
+        </tr>
+
+    </div>
     </tbody>
 </table>
 
 
-<div style="text-align: center;"><a href="/index.jsp" style="color: #cc1111">Powrót</a></div>
+<div style="text-align: center;"><a href="/index.jsp" style="color: #cc1111">← Wróć do strony głównej</a></div>
 </body>
 </html>

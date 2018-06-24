@@ -56,7 +56,7 @@ public class MoviesDAO {
                 return movie;
             }
         } catch (SQLException e) {
-            System.out.println("Could not get employee");
+            System.out.println("Could not get movie");
         }
         return null;
     }
@@ -65,7 +65,7 @@ public class MoviesDAO {
         List<Movie> movieList = new ArrayList<>();
         Movie movie = new Movie();
 
-        final String sql = "select * from books";
+        final String sql = "select * from movies";
         try {
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery(sql);
