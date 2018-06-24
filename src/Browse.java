@@ -11,16 +11,16 @@ import java.util.List;
 public class Browse extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        MoviesDAO moviesDAO=new MoviesDAO();
+        MoviesDAO moviesDAO = new MoviesDAO();
 
 
-        List<Integer>ids=new ArrayList<>();
-        List<String>titles=new ArrayList<>();
-        List<String>directors=new ArrayList<>();
-        List<String>urls=new ArrayList<>();
-        List<String>years=new ArrayList<>();
+        List<Integer> ids = new ArrayList<>();
+        List<String> titles = new ArrayList<>();
+        List<String> directors = new ArrayList<>();
+        List<String> urls = new ArrayList<>();
+        List<String> years = new ArrayList<>();
 
-        for (Movie m:moviesDAO.getAllMovies()){
+        for (Movie m : moviesDAO.getAllMovies()) {
             ids.add(m.getId());
             titles.add(m.getTitle());
             directors.add(m.getDirector());
@@ -29,12 +29,11 @@ public class Browse extends HttpServlet {
         }
 
 
-
-        request.setAttribute("ids",ids);
-        request.setAttribute("titles",titles);
-        request.setAttribute("directors",directors);
-        request.setAttribute("urls",urls);
-        request.setAttribute("years",years);
+        request.setAttribute("ids", ids);
+        request.setAttribute("titles", titles);
+        request.setAttribute("directors", directors);
+        request.setAttribute("urls", urls);
+        request.setAttribute("years", years);
         request.getRequestDispatcher("/browse.jsp").forward(request, response);
     }
 
