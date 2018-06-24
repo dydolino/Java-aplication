@@ -22,5 +22,9 @@
     <input type="text" name="year" placeholder="Rok produkcji"><br>
     <input type="submit" value="Dodaj">
 </form></div>
+
+<div style="text-align: center;"><form method="post" action="/index.jsp">
+    <input type="submit" value="← Wróć do strony głównej">
+</form></div>
 </body>
 </html>
