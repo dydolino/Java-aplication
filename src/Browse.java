@@ -14,13 +14,28 @@ public class Browse extends HttpServlet {
         MoviesDAO moviesDAO=new MoviesDAO();
 
 
+        List<Integer>ids=new ArrayList<>();
         List<String>titles=new ArrayList<>();
-        for (Movie m:moviesDAO.getAllMovies()){
-            titles.add(m.getTitle());
-        }
-        request.setAttribute("titles",titles);
-        request.getRequestDispatcher("/browse.jsp").forward(request, response);
+        List<String>directors=new ArrayList<>();
+        List<String>urls=new ArrayList<>();
+        List<String>years=new ArrayList<>();
 
+        for (Movie m:moviesDAO.getAllMovies()){
+            ids.add(m.getId());
+            titles.add(m.getTitle());
+            directors.add(m.getDirector());
+            urls.add(m.getURL());
+            years.add(m.getYear());
+        }
+
+
+
+        request.setAttribute("ids",ids);
+        request.setAttribute("titles",titles);
+        request.setAttribute("directors",directors);
+        request.setAttribute("urls",urls);
+        request.setAttribute("years",years);
+        request.getRequestDispatcher("/browse.jsp").forward(request, response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
