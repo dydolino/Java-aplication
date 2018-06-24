@@ -15,7 +15,9 @@
 <body>
 
 <h1><div style="text-align: center;">Dodano film!</div></h1>
-<a href="/index.jsp" style="text-align: center;">← Wróć do strony głównej</a>
+<div style="text-align: center;"><form method="post" action="/index.jsp">
+    <input type="submit" value="← Wróć do strony głównej">
+</form></div>
 
 </body>
 </html>

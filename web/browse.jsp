@@ -32,7 +32,7 @@
 %>
 
 
-<table class="table">
+<div style="text-align: center;"><table class="table">
     <thead>
     <div style="text-align: center;">
         <tr>
@@ -60,9 +60,11 @@
 
     </div>
     </tbody>
-</table>
+</table></div>
 
 
-<div style="text-align: center;"><a href="/index.jsp" style="color: #cc1111">← Wróć do strony głównej</a></div>
+<div style="text-align: center;"><form method="post" action="/index.jsp">
+    <input type="submit" value="← Wróć do strony głównej">
+</form></div>
 </body>
 </html>
