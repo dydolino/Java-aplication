@@ -1,3 +1,5 @@
+package edu;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -28,8 +30,6 @@ public class Browse extends HttpServlet {
             years.add(m.getYear());
         }
 
-
-
         request.setAttribute("ids",ids);
         request.setAttribute("titles",titles);
         request.setAttribute("directors",directors);
@@ -40,5 +40,7 @@ public class Browse extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
+
     }
+
 }

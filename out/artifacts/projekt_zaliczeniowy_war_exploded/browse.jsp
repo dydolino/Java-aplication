@@ -1,4 +1,6 @@
-<%@ page import="java.util.List" %><%--
+<%@ page import="java.util.List" %>
+<%@ page import="edu.Browse" %><%--
+<%--
   Created by IntelliJ IDEA.
   User: Win8
   Date: 2018-06-15
@@ -15,6 +17,10 @@
 <body>
 
 <%
+
+//    Browse browse = new Browse();
+//    browse.doPost();
+
     Object listaIndeksów = request.getAttribute("ids");
     List<String> ids = (List<String>) listaIndeksów;
 
@@ -35,7 +41,7 @@
 
 <table class="table">
     <thead>
-    <div style="text-align: center;">
+    <div style="text-align: center;"> <form action="Rezerwacja?action=doPost" method="post">
     <tr>
         <th scope="col">ID</th>
         <th scope="col">Tytuł</th>

@@ -13,7 +13,7 @@
     <title style="text-align: center;">Filmy</title>
   </head>
   <body>
-  <div style="text-align: center;"><h1>Wypozżczalnia filmów</h1></div>
+  <div style="text-align: center;"><h1>Wypożyczalnia filmów</h1></div>
   <div style="text-align: center;"><a href="/add.jsp"style="color: #cc1111">Dodaj film do bazy</a></div>
   <div style="text-align: center;"><a href="/browse.jsp"style="color: #cc1111">Przeglądaj filmy</a></div>
   </body>

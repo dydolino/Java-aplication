@@ -1,3 +1,5 @@
+package edu;
+
 import java.util.Objects;
 
 public class Movie {
