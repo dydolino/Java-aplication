@@ -1,3 +1,7 @@
+package Others;
+
+import JDBC.MoviesDAO;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;

@@ -1,3 +1,7 @@
+package JDBC;
+
+import Others.Movie;
+
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
