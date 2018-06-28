@@ -2,12 +2,14 @@ package Others;
 
 import JDBC.MoviesDAO;
 
+import javax.naming.NamingException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.sql.SQLException;
 
 
 @WebServlet("/addMovie")
@@ -25,7 +27,16 @@ public class Movies extends HttpServlet {
             request.getRequestDispatcher("/empty.jsp").forward(request, response);
         } else {
 
-            MoviesDAO moviesDAO = new MoviesDAO();
+            MoviesDAO moviesDAO = null;
+            try {
+                moviesDAO = new MoviesDAO();
+            } catch (ClassNotFoundException e) {
+                e.printStackTrace();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            } catch (NamingException e) {
+                e.printStackTrace();
+            }
             Movie movie = new Movie(title, director, URL, year);
             moviesDAO.addMovie(movie);
             request.getRequestDispatcher("/confirmAdded.jsp").forward(request, response);

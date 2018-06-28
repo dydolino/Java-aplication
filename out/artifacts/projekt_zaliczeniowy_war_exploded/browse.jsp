@@ -1,5 +1,4 @@
 <%@ page import="java.util.List" %>
-<%@ page import="Others.Movie" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
@@ -22,7 +21,7 @@
         }
 
         tr:nth-child(even) {
-            background-color: #f2f2f2
+            background-color: #f2f2f2;
         }
     </style>
 </head>
@@ -47,7 +46,7 @@
 <div style="text-align: center;">
 <p><strong>Kliknij nagłówek kolumny tabeli, by posortować.</strong></p>
 <p>Kliknięcie po raz pierwszy - sortowanie rosnąco.</p>
-<p>Kliknięcie po raz pierwszy - sortowanie malejąco.</p>
+<p>Kliknięcie po raz drugi - sortowanie malejąco.</p>
 </div>
 <table id="table">
     <thead>
@@ -71,6 +70,7 @@
     %>
     </tbody>
 </table>
+
 
 <script>
     function sortTable(n) {
@@ -128,6 +128,5 @@
         }
     }
 </script>
-
 </body>
 </html>
