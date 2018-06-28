@@ -32,21 +32,7 @@
 
     Object moviesList=request.getAttribute("moviesList");
     List<Movie>listMovies=(List<Movie>)moviesList;
-
-//    Object listaIndeksów = request.getAttribute("ids");
-//    List<Integer> ids = (List<Integer>) listaIndeksów;
-//
-//    Object listaTytulow = request.getAttribute("titles");
-//    List<String> titles = (List<String>) listaTytulow;
-//
-//    Object listaRezyserow = request.getAttribute("directors");
-//    List<String> directors = (List<String>) listaRezyserow;
-//
-//    Object listaURL = request.getAttribute("urls");
-//    List<String> urls = (List<String>) listaURL;
-//
-//    Object listaLat = request.getAttribute("years");
-//    List<String> years = (List<String>) listaLat;
+    
 %>
 <div style="text-align: center;">
 <p><strong>Kliknij nagłówek kolumny tabeli, by posortować.</strong></p>
