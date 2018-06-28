@@ -16,32 +16,31 @@ public class Browse extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         MoviesDAO moviesDAO = new MoviesDAO();
+        List<Movie>movieList=moviesDAO.getAllMovies();
+
+        request.setAttribute("moviesList",movieList);
 
 
-        List<Integer> ids = new ArrayList<>();
-        List<String> titles = new ArrayList<>();
-        List<String> directors = new ArrayList<>();
-        List<String> urls = new ArrayList<>();
-        List<String> years = new ArrayList<>();
-
-        for (Movie m : moviesDAO.getAllMovies()) {
-            ids.add(m.getId());
-            titles.add(m.getTitle());
-            directors.add(m.getDirector());
-            urls.add(m.getURL());
-            years.add(m.getYear());
-        }
-
-
-        request.setAttribute("ids", ids);
-        request.setAttribute("titles", titles);
-        request.setAttribute("directors", directors);
-        request.setAttribute("urls", urls);
-        request.setAttribute("years", years);
+//        List<Integer> ids = new ArrayList<>();
+//        List<String> titles = new ArrayList<>();
+//        List<String> directors = new ArrayList<>();
+//        List<String> urls = new ArrayList<>();
+//        List<String> years = new ArrayList<>();
+//
+//        for (Movie m : moviesDAO.getAllMovies()) {
+//            ids.add(m.getId());
+//            titles.add(m.getTitle());
+//            directors.add(m.getDirector());
+//            urls.add(m.getURL());
+//            years.add(m.getYear());
+//        }
+//
+//
+//        request.setAttribute("ids", ids);
+//        request.setAttribute("titles", titles);
+//        request.setAttribute("directors", directors);
+//        request.setAttribute("urls", urls);
+//        request.setAttribute("years", years);
         request.getRequestDispatcher("/browse.jsp").forward(request, response);
-    }
-
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
     }
 }

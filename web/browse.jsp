@@ -29,20 +29,24 @@
 <body>
 
 <%
-    Object listaIndeksów = request.getAttribute("ids");
-    List<Integer> ids = (List<Integer>) listaIndeksów;
 
-    Object listaTytulow = request.getAttribute("titles");
-    List<String> titles = (List<String>) listaTytulow;
+    Object moviesList=request.getAttribute("moviesList");
+    List<Movie>listMovies=(List<Movie>)moviesList;
 
-    Object listaRezyserow = request.getAttribute("directors");
-    List<String> directors = (List<String>) listaRezyserow;
-
-    Object listaURL = request.getAttribute("urls");
-    List<String> urls = (List<String>) listaURL;
-
-    Object listaLat = request.getAttribute("years");
-    List<String> years = (List<String>) listaLat;
+//    Object listaIndeksów = request.getAttribute("ids");
+//    List<Integer> ids = (List<Integer>) listaIndeksów;
+//
+//    Object listaTytulow = request.getAttribute("titles");
+//    List<String> titles = (List<String>) listaTytulow;
+//
+//    Object listaRezyserow = request.getAttribute("directors");
+//    List<String> directors = (List<String>) listaRezyserow;
+//
+//    Object listaURL = request.getAttribute("urls");
+//    List<String> urls = (List<String>) listaURL;
+//
+//    Object listaLat = request.getAttribute("years");
+//    List<String> years = (List<String>) listaLat;
 %>
 <div style="text-align: center;">
 <p><strong>Kliknij nagłówek kolumny tabeli, by posortować.</strong></p>
@@ -61,10 +65,10 @@
     </thead>
     <tbody>
     <%
-        for (int i = 0; i< titles.size(); i++){
+        for (int i = 0; i< listMovies.size(); i++){
     %>
     <tr>
-        <td><%=ids.get(i)%></td> <td><%=titles.get(i)%></td> <td><%=directors.get(i)%></td><td><%=urls.get(i)%></td><td><%=years.get(i)%></td>
+        <td><%=listMovies.get(i).getId()%></td> <td><%=listMovies.get(i).getTitle()%></td> <td><%=listMovies.get(i).getDirector()%></td><td><%=listMovies.get(i).getURL()%></td><td><%=listMovies.get(i).getYear()%></td>
     </tr>
     <%
         }
