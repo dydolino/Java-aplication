@@ -2,6 +2,10 @@ package JDBC;
 
 import Others.Movie;
 
+import javax.naming.Context;
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
+import javax.sql.DataSource;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -9,19 +13,25 @@ import java.util.List;
 public class MoviesDAO {
 
     private static final String URL = "jdbc:mysql://localhost:3306/movieagregator?serverTimezone=UTC&useSSL=false&characterEncoding=utf8";
-    private static final String USER = "root";
-    private static final String PASS = "dydolino96";
+    private static final String USER = "user";
+    private static final String PASS = "admin1";
     private Connection connection = null;
 
-    public MoviesDAO() {
+    public MoviesDAO() throws ClassNotFoundException, SQLException, NamingException {
 
+
+        Context initContext = new InitialContext();
+        Context envContext = (Context) initContext.lookup("java:/comp/env");
+        DataSource dataSource = (DataSource) envContext.lookup("jdbc/filmy");
+        connection = dataSource.getConnection();
+
+
+        if (connection != null) {
+            System.out.println("Connection established");
+        }
 
         try {
-            Class.forName("com.mysql.cj.jdbc.Driver");
-            connection = DriverManager.getConnection(URL, USER, PASS);
-            if (connection != null) {
-                System.out.println("Connection established");
-            }
+
 
         } catch (Exception e) {
             e.printStackTrace();

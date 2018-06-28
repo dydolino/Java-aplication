@@ -1,5 +1,5 @@
-<%@ page import="java.util.List" %>
 <%@ page import="Others.Movie" %>
+<%@ page import="java.util.List" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
@@ -30,14 +30,14 @@
 
 <%
 
-    Object moviesList=request.getAttribute("moviesList");
-    List<Movie>listMovies=(List<Movie>)moviesList;
-    
+    Object moviesList = request.getAttribute("moviesList");
+    List<Movie> listMovies = (List<Movie>) moviesList;
+
 %>
 <div style="text-align: center;">
-<p><strong>Kliknij nagłówek kolumny tabeli, by posortować.</strong></p>
-<p>Kliknięcie po raz pierwszy - sortowanie rosnąco.</p>
-<p>Kliknięcie po raz drugi - sortowanie malejąco.</p>
+    <p><strong>Kliknij nagłówek kolumny tabeli, by posortować.</strong></p>
+    <p>Kliknięcie po raz pierwszy - sortowanie rosnąco.</p>
+    <p>Kliknięcie po raz drugi - sortowanie malejąco.</p>
 </div>
 <table id="table">
     <thead>
@@ -51,10 +51,19 @@
     </thead>
     <tbody>
     <%
-        for (int i = 0; i< listMovies.size(); i++){
+        for (int i = 0; i < listMovies.size(); i++) {
     %>
     <tr>
-        <td><%=listMovies.get(i).getId()%></td> <td><%=listMovies.get(i).getTitle()%></td> <td><%=listMovies.get(i).getDirector()%></td><td><%=listMovies.get(i).getURL()%></td><td><%=listMovies.get(i).getYear()%></td>
+        <td><%=listMovies.get(i).getId()%>
+        </td>
+        <td><%=listMovies.get(i).getTitle()%>
+        </td>
+        <td><%=listMovies.get(i).getDirector()%>
+        </td>
+        <td><%=listMovies.get(i).getURL()%>
+        </td>
+        <td><%=listMovies.get(i).getYear()%>
+        </td>
     </tr>
     <%
         }
@@ -89,7 +98,7 @@
                 if (dir == "asc") {
                     if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
                         //if so, mark as a switch and break the loop:
-                        shouldSwitch= true;
+                        shouldSwitch = true;
                         break;
                     }
                 } else if (dir == "desc") {
@@ -106,7 +115,7 @@
                 rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
                 switching = true;
                 //Each time a switch is done, increase this count by 1:
-                switchcount ++;
+                switchcount++;
             } else {
                 /*If no switching has been done AND the direction is "asc",
                 set the direction to "desc" and run the while loop again.*/
