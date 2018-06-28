@@ -7,14 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87cb540f-bf72-4e66-b47b-3b3e43333583" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/312c1f98-0f10-4fe9-87ba-05bbcb329414.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/312c1f98-0f10-4fe9-87ba-05bbcb329414.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/projekt_zaliczeniowy_war_exploded/browse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/projekt_zaliczeniowy_war_exploded/browse.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Browse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Others/Browse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Others/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Movies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Others/Movies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MoviesDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JDBC/MoviesDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/browse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/browse.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JDBC/MoviesDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JDBC/MoviesDAO.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,8 +36,8 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="65" lean-forward="true" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
+            <state relative-caret-position="51">
+              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -52,17 +45,26 @@
       <file leaf-file-name="add.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/add.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="23" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoviesDAO.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="browse.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/browse.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoviesDAO.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/JDBC/MoviesDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+            <state relative-caret-position="39">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,56 +75,26 @@
       <file leaf-file-name="Movies.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Others/Movies.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="90">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Movie.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Others/Movie.java">
+      <file leaf-file-name="ResultSetImpl.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/jdbc/result/ResultSetImpl.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="13260">
+              <caret line="875" selection-start-line="875" selection-end-line="875" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Browse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Others/Browse.java">
+      <file leaf-file-name="ConnectionImpl.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/jdbc/ConnectionImpl.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="browse.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/browse.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="55" column="57" lean-forward="true" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="empty.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/empty.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="confirmAdded.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/confirmAdded.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="13838">
+              <caret line="814" selection-start-line="814" selection-end-line="814" />
             </state>
           </provider>
         </entry>
@@ -166,8 +138,8 @@
         <option value="$PROJECT_DIR$/web/confirmAdded.jsp" />
         <option value="$PROJECT_DIR$/web/add.jsp" />
         <option value="$PROJECT_DIR$/src/Movies.java" />
-        <option value="$PROJECT_DIR$/src/JDBC/MoviesDAO.java" />
         <option value="$PROJECT_DIR$/web/browse.jsp" />
+        <option value="$PROJECT_DIR$/src/JDBC/MoviesDAO.java" />
       </list>
     </option>
   </component>
@@ -187,51 +159,79 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="projekt zaliczeniowy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projekt zaliczeniowy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projekt zaliczeniowy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projekt zaliczeniowy" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projekt zaliczeniowy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projekt zaliczeniowy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projekt zaliczeniowy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projekt zaliczeniowy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="JDBC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projekt zaliczeniowy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projekt zaliczeniowy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Others" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projekt zaliczeniowy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projekt zaliczeniowy" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projekt zaliczeniowy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projekt zaliczeniowy" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projekt zaliczeniowy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projekt zaliczeniowy" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projekt zaliczeniowy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
             <path>
               <item name="projekt zaliczeniowy" type="58d84e3e:PackageViewProjectNode" />
               <item name="projekt zaliczeniowy" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="projektZaliczeniowy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projektZaliczeniowy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projektZaliczeniowy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projektZaliczeniowy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projektZaliczeniowy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projektZaliczeniowy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="JDBC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projektZaliczeniowy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projektZaliczeniowy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Others" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -259,7 +259,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,7 +269,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Nowy folder/NicSieNieStalo-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Projekt_zaliczeniowy_sieci" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -456,10 +455,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46052000" />
+    <option name="totallyTimeSpent" value="46600000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
@@ -473,27 +472,51 @@
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="1" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.3995749" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.39891893" />
       <window_info anchor="bottom" id="TODO" order="14" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.32972974" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.33900106" />
       <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.52167416" />
       <window_info anchor="bottom" id="Terminal" order="3" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.7508039" visible="true" weight="0.14739583" />
-      <window_info id="Web" order="4" sideWeight="0.24919614" side_tool="true" visible="true" weight="0.14739583" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.753125" visible="true" weight="0.15885799" />
+      <window_info id="Web" order="4" sideWeight="0.246875" side_tool="true" visible="true" weight="0.15885799" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Database Console" order="1" weight="0.32972974" />
-      <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.33900106" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.7508039" visible="true" weight="0.14739583" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Application Servers" order="0" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="0" />
+      <window_info id="Web" order="4" sideWeight="0.24919614" side_tool="true" visible="true" weight="0.14739583" />
+      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.3296875" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="1" weight="0.32972974" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info id="UI Designer" order="1" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.3995749" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info id="Designer" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -771,32 +794,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/add.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="65" lean-forward="true" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
+        <state relative-caret-position="51">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Documents/Tomcat Server Home/apache-tomcat-8.0.52/lib/servlet-api.jar!/javax/servlet/ServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Others/Movies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../Tomcat Server Home/apache-tomcat-8.0.52/lib/servlet-api.jar!/javax/servlet/ServletRequest.class" />
     <entry file="file://$PROJECT_DIR$/src/Others/Browse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -811,22 +821,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JDBC/MoviesDAO.java">
+    <entry file="file://$PROJECT_DIR$/web/browse.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/browse.jsp">
+    <entry file="file://$PROJECT_DIR$/src/Others/Movies.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="55" column="57" lean-forward="true" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
+        <state relative-caret-position="90">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JDBC/MoviesDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

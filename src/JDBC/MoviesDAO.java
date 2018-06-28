@@ -9,8 +9,8 @@ import java.util.List;
 public class MoviesDAO {
 
     private static final String URL = "jdbc:mysql://localhost:3306/movieagregator?serverTimezone=UTC&useSSL=false&characterEncoding=utf8";
-    private static final String USER = "user";
-    private static final String PASS = "admin1";
+    private static final String USER = "root";
+    private static final String PASS = "dydolino96";
     private Connection connection = null;
 
     public MoviesDAO() {

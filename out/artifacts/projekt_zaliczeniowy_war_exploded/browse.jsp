@@ -47,7 +47,7 @@
 <div style="text-align: center;">
 <p><strong>Kliknij nagłówek kolumny tabeli, by posortować.</strong></p>
 <p>Kliknięcie po raz pierwszy - sortowanie rosnąco.</p>
-<p>Kliknięcie po raz pierwszy - sortowanie malejąco.</p>
+<p>Kliknięcie po raz drugi - sortowanie malejąco.</p>
 </div>
 <table id="table">
     <thead>
