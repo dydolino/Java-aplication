@@ -128,6 +128,9 @@
         }
     }
 </script>
+<div style="text-align: center;"><form method="post" action="/index.jsp">
+    <input type="submit" value="← Wróć do strony głównej">
+</form></div>
 
 </body>
 </html>
